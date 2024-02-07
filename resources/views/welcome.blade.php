@@ -21,9 +21,9 @@
                 <h4>
                     {{$movie->original_title}} 
                 </h4>
-                <p>Nationality:{{$movie->nazionality}}</p>
-                <p>Date:{{$movie->date}}</p>
-                <p>Vote:{{$movie->vote}}</p>
+                <p>Nationality: {{$movie->nationality}}</p>
+                <p>Date: {{$movie->date}}</p>
+                <p>Vote: {{$movie->vote}}</p>
             </article>
         @endforeach
     </div>
