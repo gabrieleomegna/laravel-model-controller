@@ -9,5 +9,12 @@
 </head>
 <body>
     <h1>Welcome</h1>
+    <ul>
+        @foreach ($movies as $movie)
+            <li>
+                {{$movie->id}}, {{$movie->title}} 
+            </li>
+        @endforeach
+    </ul>
 </body>
 </html>
